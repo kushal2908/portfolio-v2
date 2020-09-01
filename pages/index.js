@@ -14,8 +14,9 @@ export default function Home() {
     <div >
 
       <Header />
-
+      
       <section className="hero" id="home">
+      <BgEffect />
         <div className="wrapper" > 
           <div className="hero-content" >
 
@@ -37,7 +38,7 @@ export default function Home() {
 
       <section className="about" id="about">
 
-              <BgEffect />
+            
       
         <div className="wrapper">         
 
@@ -45,10 +46,27 @@ export default function Home() {
 
             <div className="about-content">
 
-              <p>
+              <p className="about-description" >
                 My name is Sarder Safa Bin Salam. I'm a front end web developer from Dhaka, Bangladesh. 
                 I work remotely on projects for my client.
               </p> 
+
+              <div className="about-points" >
+
+                <p className="about-points-content">
+                  My layouts will work on any big or small device.
+                </p> 
+
+                <p className="about-points-content">
+                  Strong preference for easy to use user interface
+                </p>
+
+                <p className="about-points-content">
+                  Your website dont have to be static. I love to make pages come alive
+                </p>
+
+              </div>          
+              
 
 
 

@@ -37,9 +37,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   object-fit: contain;
-
   position: relative;
+}
 
+.particle-js {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
 }
 
 .hero-content {
@@ -97,18 +101,10 @@
 =================================================================================== */
 
 .about {
-  height: 100vh;
+  
   background-color: #050505;  
   color: #f6f6f6;
   position: relative;
-}
-
-.particle-js {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  z-index: 1;
-
 }
 
 .about h2 {
@@ -118,14 +114,40 @@
   padding-top: 90px;
 }
 
-.about p {
-  font-size: 22px;
-  font-weight: 300;
+.about-description {
+  font-size: 22px;  
   text-align: justify;
   padding-top: 30px; 
 }
 
+.about-points {
+  display: flex;
+  font-size: 18px; 
+  padding: 30px 0px;
+  text-align: left;
+}
 
+.about-points-content {
+  border-left: 5px solid #f6f6f6;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 700;  
+}
+
+.about-points-content:hover {  
+  border-left: 5px solid #bb1f1f;
+  padding: 10px;
+  margin: 10px;
+  color: #bb1f1f;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .about-points {
+    display: flex;
+    flex-direction: column;    
+  }
+}
 
 
 
