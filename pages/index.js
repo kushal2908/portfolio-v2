@@ -2,6 +2,8 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import BgEffect from './Components/BgEffect'
 
+import works from './works';
+
 
 import TypeIt from "typeit-react";
 
@@ -37,10 +39,7 @@ export default function Home() {
    
 
       <section className="about" id="about">
-
-            
-      
-        <div className="wrapper">         
+        <div className="wrapper">       
 
          <h2>About</h2>
 
@@ -62,10 +61,27 @@ export default function Home() {
                 </p>
 
                 <p className="about-points-content">
-                  Your website dont have to be static. I love to make pages come alive
+                  Your website might be static. I love to make pages come alive
                 </p>
 
-              </div>          
+              </div>    
+
+              <div className="about-services">
+
+               <h3>Service</h3>
+
+               <p className="about-services-name">
+                  Web Development
+               </p>
+               
+               <p className="about-services-description">
+                  Providing complete solution on website using HTML, CSS, and Javascript I build fast, interactive websites. 
+                  This also may include a CMS, API's or other integrations. <br/>
+                  Besides I also use ReactJS, NodeJS, ExpressJS, MySQL, Firebase as per as client requirement              
+               </p> 
+
+               {/* <a className="work-btn" href="/works">My Works</a> */}
+              </div>      
               
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 
 function Header() {
@@ -19,9 +20,15 @@ function Header() {
                         <span class="button button-toggle"></span>
                     </label>
                     <nav class="nav">
-                        <a class="nav-item" href="#home">Home</a>
-                        <a class="nav-item" href="#about">About</a>
-                        <a class="nav-item" href="">Contact</a>                       
+                        <Link href="/#home"> 
+                            <a class="nav-item" >Home</a>
+                        </Link>
+                        <Link href="/#about">
+                            <a class="nav-item" >About</a>
+                        </Link>
+                        <Link href="/works">
+                            <a class="nav-item" >Contact</a> 
+                        </Link>                                         
                     </nav>
             </div>
 
