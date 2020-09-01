@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+/* NAVBAR */
+@import './navbar.css';
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth; 
+}
+
+.wrapper {
+  max-width: 1120px;
+  margin: 0 auto;    
+}
+
+@media (max-width: 1120px) {
+  .wrapper {
+    padding: 0px 20px;     
+  }
+}
+
+/* ==================================================================
+  HERO
+==================================================================== */
+
+.hero {
+
+  height: 100vh;
+  /* background-image: linear-gradient(#000000,#434343); */
+  background-color: #050505;
+  background-image: linear-gradient( rgba(5,5,5, 1), rgba(0,0,0,0.2)) , url(../public/img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: contain;
+
+  position: relative;
+
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0%,0%);  
+  color: #f6f6f6;   
+  
+}
+
+.hero-content h1 {
+  font-size: 68px;  
+}
+
+.hero-content .type-it {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px ) {
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(0%,0%);  
+    color: #f6f6f6;  
+  }
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  
+  .hero-content .type-it {
+    font-size: 18px;
+    font-weight: 300;
+  } 
+}
+
+@media (max-width:450px) {
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%,0%);  
+    color: #f6f6f6;  
+  }
+}
+
+
+
+
+
+/* ================================================================================
+    ABOUT
+=================================================================================== */
+
+.about {
+  height: 100vh;
+  background-color: #050505;  
+  color: #f6f6f6;
+  position: relative;
+}
+
+.particle-js {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.about h2 {
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.about p {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: justify;
+  padding-top: 30px; 
+}
+
+
+
+
+
+/* ================================================================================
+    Footer
+=================================================================================== */
+
+.Footer {
+
+  background-color:#010101; 
+  
+
+}
+
+.Footer  h3 {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px 0px;
+  color: #f6f6f6;
+}
+
