@@ -46,7 +46,7 @@ export default function Home() {
             <div className="about-content">
 
               <p>
-                My name is Sarder Safa Bin Salam. I'm a full stack web developer from Dhaka, Bangladesh. 
+                My name is Sarder Safa Bin Salam. I'm a front end web developer from Dhaka, Bangladesh. 
                 I work remotely on projects for my client.
               </p> 
 
