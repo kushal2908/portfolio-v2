@@ -69,7 +69,7 @@ export default function Home() {
               
 
               <div className="about-services">               
-                <h3>Service</h3>
+                <h3>Services</h3>
                   <p className="about-services-name">
                     Web Development
                   </p>
