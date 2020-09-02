@@ -17,13 +17,12 @@ function works() {
                                 <img src="../img/work/safe-charuta.PNG" alt="Safe Charuta" />
                                 <div className="work-container">
                                     <h4><b>Safe Charuta</b></h4> 
-                                    <p>Safe Charuta is a physical security equipment product and services provider based on Bangladesh</p> 
+                                    <p>Safe Charuta is a physical security equipment product and services provider based on Bangladesh</p>
 
                                     <button className="work-card-btn">
                                         <a  href="https://safecharuta.com" target="#" >  Visit Site   </a>    
-                                    </button>
-
-                                </div>
+                                    </button>                                                
+                                </div>                               
                             </div>
 
                             <div className="work-card">
@@ -34,8 +33,9 @@ function works() {
 
                                     <button className="work-card-btn">
                                         <a  href="https://syedmovers.com/" target="#" >  Visit Site   </a>    
-                                    </button>                                   
-                                </div>
+                                    </button> 
+                                                                   
+                                </div>                              
                             </div>
 
                             
@@ -45,10 +45,10 @@ function works() {
                                     <h4><b>Happy Feets for kids</b></h4> 
                                     <p> NGO based on Canada </p>
 
-                                    <button className="work-card-btn">
+                                    <button className="work-card-btn work-button">
                                         <a  href="https://happyfeetforkids.org/" target="#" >  Visit Site   </a>                                        
-                                    </button>                                   
-                                </div>
+                                     </button>   
+                                </div>  
                             </div>
 
 
