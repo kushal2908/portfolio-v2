@@ -2,15 +2,17 @@ import React from 'react'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
+import Particles from 'react-particles-js';
+
 function works() {
     return (
         <div>
             <Header/>
                 <section className="work" >
-                    <div className="wrapper" >
+                    <div className="wrapper" >                       
 
+                        
                         <h3>My Works</h3>
-
                         <div className="web-work" >
                             
                             <div className="work-card">

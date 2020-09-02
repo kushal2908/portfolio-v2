@@ -56,7 +56,9 @@
 }
 
 .hero-content h1 {
-  font-size: 68px;  
+  font-size: 68px;
+  color: tomato;
+  letter-spacing: -1px;  
 }
 
 .hero-content .type-it {
@@ -74,6 +76,8 @@
   }
   .hero-content h1 {
     font-size: 48px;
+    color: tomato;
+  letter-spacing: -1px;  
   }
   
   .hero-content .type-it {
@@ -110,9 +114,10 @@
 .about h2 {
   font-size: 42px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   text-align: center;
   padding-top: 90px;
+  color: tomato;
 }
 
 .about-description {
@@ -172,9 +177,29 @@
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
-  padding: 30px;
+  padding: 10px 0px 60px 20px;
 }
 
+.work-btn{
+
+  border: 1px solid #f6f6f6;
+  padding: 10px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.work-btn:hover{
+
+  border: 1px solid tomato;
+  padding: 10px;
+  text-decoration: none;
+  color: tomato;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 
 
@@ -188,26 +213,34 @@
   WORK
 ==================================================================*/
 .work{
-  background-color: #141414;
-  padding: 60px 0px;     
-}
-
-.work h3 {
-  color: #f6f6f6;
-  text-align: center;
-  padding: 60px;
-  font-size: 38px;
+  background-image: url(../public/img/work-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0px;   
+  position: relative;
+  
 }
 
 .web-work{
-  display: flex;     
+  display: flex;   
+  justify-content: center;
+  z-index: 1;
+}
+
+.work h3 {
+  color: tomato;
+  text-align: center;
+  padding: 30px;
+  font-size: 42px;
+  letter-spacing: -1px;
 }
 
 .work-card {
   transition: 0.3s;
   width: 100%;   
   margin-bottom: 60px;
-  margin-right: 20px;
+  margin: 20px;
   background-color: #000000;  
 }
 
@@ -229,6 +262,7 @@
 .work-container h4 {
   font-size: 22px;
   padding-bottom:5px;
+  color: tomato;
 }
 
 .work-container p {
@@ -266,8 +300,6 @@
     background-color: #000000;     
   }
 
-
-
   .work-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -277,6 +309,37 @@
   }
 
 }
+
+
+
+
+/* ==========================================================================================
+    CONTACT
+================================================================================================ */
+
+.contact{
+  height: 100vh;
+  background-color: #050505;
+  color: #f6f6f6;  
+}
+
+.contact h3 {
+  font-size: 42px;
+  letter-spacing: -1px;
+  color: tomato;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.contact-description p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
 
 
 

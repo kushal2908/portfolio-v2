@@ -66,29 +66,31 @@ export default function Home() {
 
               </div>    
 
-              <div className="about-services">
-
-               <h3>Service</h3>
-
-               <p className="about-services-name">
-                  Web Development
-               </p>
-               
-               <p className="about-services-description">
-                  Providing complete solution on website using HTML, CSS, and Javascript I build fast, interactive websites. 
-                  This also may include a CMS, API's or other integrations. <br/>
-                  Besides I also use ReactJS, NodeJS, ExpressJS, MySQL, Firebase as per as client requirement              
-               </p> 
-
-               {/* <a className="work-btn" href="/works">My Works</a> */}
-              </div>      
               
 
+              <div className="about-services">               
+                <h3>Service</h3>
+                  <p className="about-services-name">
+                    Web Development
+                  </p>
+                  
+                  <p className="about-services-description">
+                    Providing complete solution on website using HTML, CSS, and Javascript I build fast, interactive websites. 
+                    This also may include a CMS, API's or other integrations. <br/>
+                    Besides I also use ReactJS, NodeJS, ExpressJS, MySQL, Firebase as per as client requirement              
+                  </p> 
 
+                  <p className="about-services-name">
+                    Graphic Design
+                  </p>
+                  
+                  <p className="about-services-description">
+                    Yes, besides web I also really enjoy doing graphic desiging. I can provide you graphical solution maintaining latest trends.
+                  </p> 
 
-
-
-
+                <a className="work-btn" href="/works">My Works</a>
+              </div>   
+              
             </div>
 
         </div>
