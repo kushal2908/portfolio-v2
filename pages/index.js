@@ -33,6 +33,11 @@ export default function Home() {
             />
 
           </div>
+          <div className="scroll-down" >  
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>            
+          </div>
 
         </div>     {/* HERO WRAPPER */}  
       </section> 
